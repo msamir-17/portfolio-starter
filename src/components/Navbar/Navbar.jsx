@@ -16,10 +16,10 @@ const Navbar = () => {
                         <li>Portfolio</li>
                         <li>Testimonials</li>
                     </ul>
-                    <button className='button'>
-                        Contact Us
-                    </button>
                 </div>
+                <button className="button n-button " >
+                    Contact
+                </button>
             </div>
         </div> 
     )

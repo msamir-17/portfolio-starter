@@ -1,4 +1,4 @@
-n-wrapper{
+.n-wrapper{
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -36,4 +36,8 @@ n-wrapper{
 .n-list>ul>li:hover{
     cursor: pointer;
     color: var(--orange);
+}
+
+.n-button{
+    flex: 2;
 }
