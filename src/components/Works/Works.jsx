@@ -5,33 +5,33 @@ import Fiverr from "../../img/fiverr.png"
 import Shopify from "../../img/Shopify.png"
 import Facebook from "../../img/Facebook.png"
 import Amazon from "../../img/amazon.png"
+import { motion } from 'framer-motion';
 
 const Works = () => {
   return (
     <div className="works">
         <div className="awesome">
-            <span>Works For All These</span>
-            <span>Brands & Clients </span><span>Works For All These</span>
-            <span>Brands & Clients </span>
+            <span>Awesome</span>
+            <span>services </span>
             <spane>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 <br/>
-                tempore necessitatibus cum possimus                   
-            </spane>
-            <spane>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                tempore necessitatibus cum possimus 
+                <br />                 
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 <br/>
-                tempore necessitatibus cum possimus                   
+                tempore necessitatibus cum possimus 
             </spane>
-            <spane>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                <br/>
-                tempore necessitatibus cum possimus                   
-            </spane>
-            <button className="button s-button"> Hire Me </button>
-
+            <button className="button s-button"> Download CV </button>            
             <div className="blur s-blur1" style={{background:"#ABF1FF94"}} ></div>
         </div>
-        {/* Right Side */}
+            {/* Right Side */}
         <div className="w-right">
-            <div className="w-mainCircle">
+            <motion.div
+            initial = {{ rotate: 45 }}
+            whileInView={{rotate: 0 }}
+            viewport={{margin: '-40px'  }}
+            transition={{duration: 3.5, type: 'spring'}}
+             className="w-mainCircle">
                 <div className="w-seaCircle">
                     <img src={Upwork} alt="" />
                 </div>
@@ -46,14 +46,14 @@ const Works = () => {
                 </div>
                 <div className="w-seaCircle">
                     <img src={Facebook} alt="" />
-                </div>
-            </div>
-            {/* Backgroumd Circles */}
+                </div>                
+            </motion.div>
             <div className="w-backCircle blueCircle "></div>
             <div className="w-backCircle yellowCircle "></div>
-        </div>
+        </div>        
     </div>
-  );
+  )
 }
 
 export default Works
+

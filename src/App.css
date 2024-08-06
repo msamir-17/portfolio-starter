@@ -34,5 +34,25 @@
   border: 1px solid var(--orange);
 }
   
+@media screen and (max-width: 480px){
+  .App{
+    padding: 0.5rem 1rem;
+  }
+}
+ 
+.n-button{
+  flex: 2;
+}
 
-  
+@media screen and (max-width: 480px){
+  .n-list{
+    display: none;
+  }
+  .n-button{
+    display: none;
+  }
+  .floating-div:nth-of-type(1){
+    top: -7rem!important ;
+
+  }
+}
