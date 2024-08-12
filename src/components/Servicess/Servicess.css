@@ -62,7 +62,8 @@
     .cards{
         display: flex;
         flex-direction: column;
-        gap: 17rem;
+        gap: 10rem;
+        padding-top: 12rem;
     }
     .cards>*{
         position: static;

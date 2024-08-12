@@ -25,7 +25,9 @@ const Intro = () => {
                 <div className="i-name">
                     <span>Hy! I Am</span>
                     <span> Samir Khan </span>
-                    <span>Softeware Engineer I Have Two Internship Experience And I Creat Some Awesome Projects </span>
+                    <span>
+                    Currently, I’m Pursuing a  Degree In AIML   To Gain Depth Knowledge And Experience In AIML Through Internship And Projects 
+                    </span>
                 </div>    
                 <button className="button i-button">Hire Me 
                     <div className="i-icons">

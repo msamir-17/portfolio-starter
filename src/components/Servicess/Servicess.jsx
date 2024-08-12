@@ -1,11 +1,10 @@
-
 import React, { useContext } from 'react'
 import './Servicess.css'
 import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
-import Resume from './resume.pdf'
+import Sam from './Sam.pdf';
 import { motion } from 'framer-motion';
 import { themeContext } from '../../context';
 const Servicess = () => {
@@ -13,15 +12,13 @@ const Servicess = () => {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
   return (
-    <div className="services" id='Services' >
+    <div className="services" id='services' >
         <div className="awesome">
             <span>Awesome</span>
-            <span>services </span>
-            <spane>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                <br/>
-                tempore necessitatibus cum possimus                   
+            <span>Services </span>
+            <spane>Softeware Engineer I Have Two Internship Experience And I Creat Some Awesome Projects                   
             </spane>
-            <a href={Resume} download >
+            <a href={Sam} download >
             <button className="button s-button"> Download CV </button>
 
             </a>
@@ -37,32 +34,32 @@ const Servicess = () => {
             style={{left:'14rem'}}>
                 <Card
                 emoji = {HeartEmoji}
-                heading = {'Design'}
-                detail = {"Figma. Sketch,Photoshop,Adobe lorem*1 tempore necessitatibus cum possimus"}
+                heading = {'Web Devlopment'}
+                detail = {"Developed multiple web projects using HTML, CSS, Bootstrap, Python, and PHP. "}
                 />
             </motion.div>
         </div>
         {/* C2 */}
         <div className="cards">
-            <div style={{top:'14rem',left:'-4rem'}}>
+            <motion.div style={{top:'14rem',left:'-4rem'}}>
                 <Card
                 emoji = {Glasses}
-                heading = {'Developer'}
-                detail = {"HTML, Css, JavaScript, React lorem*1 tempore necessitatibus cum possimus"}
+                heading = {'Python Programming'}
+                detail = {"Completed various projects, including Diabetes Prediction models. Proficient in Django basics and libraries like Pandas, NumPy etc"}
                 />
-            </div>
+            </motion.div>
         </div>
 
         {/* C3 */}
         <div className="cards">
-            <div style={{top:'19rem',left:'12rem'}}>
+            <motion.div style={{top:'19rem',left:'12rem'}}>
                 <Card
                 emoji = {Humble}
-                heading = {'UI/UX'}
-                detail = {"lorem*1 tempore necessitatibus cum possimus lorem*1 tempore necessitatibus cum possimus   "}
+                heading = {'Jr.ML Developer'}
+                detail = {"AI/ML Developer Currently advancing my knowledge in AI and ML, focusing on model development and data-driven solutions"}
             
                 />
-            </div>
+            </motion.div>
             <div className="blur s-blur2" style={{background: "var(--purple)"}} ></div>
         </div>
     </div>

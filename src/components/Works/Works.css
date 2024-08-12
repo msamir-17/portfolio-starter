@@ -95,4 +95,8 @@
     .w-backCircle{
         left: 8rem!important ;
     }
+    .awesome> :nth-child(1){
+        height: 2rem;
+        width: 2rem;
+    }
 }

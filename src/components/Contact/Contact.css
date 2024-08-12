@@ -19,7 +19,7 @@
 }
 .c-right .user
 {
-    width: 15rem;
+    width: 20rem;
     height: 2rem;
     padding: 0.3rem;
     outline: none;
@@ -34,7 +34,40 @@
     top: 1rem;
     left: 8rem;
 }
-
 @media screen and (max-width: 480px){
+    .awesome > :nth-child(1) {
+        font-size: 45px;
+        width: 20rem;
+        height: 1.5rem;
+        padding-bottom: 22px
+    
+    }
+    .awesome > :nth-child(2) {
+        font-size: 35px;
+        height: 2.5;
+        width: 13rem;
+        padding-left: 1px;
+        padding-top: 48px;
+    }
+    
+    .contact-form{
+        flex-direction: column;
+        padding-bottom: 54%;
+        overflow: auto;
+    
+        
+    }
+    .c-right>form{
+        padding-top: 15%;
+    }
+    
+    .c-right .user
+    {
+        width: 14rem;
+        height: 2rem;
+        padding: 0.3rem;
+        outline: none;
+        font-size: 16px;
+    }
     
 }

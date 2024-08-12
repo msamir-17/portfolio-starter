@@ -11,15 +11,10 @@ const Works = () => {
   return (
     <div className="works">
         <div className="awesome">
-            <span>Awesome</span>
-            <span>services </span>
-            <spane>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                <br/>
-                tempore necessitatibus cum possimus 
-                <br />                 
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                <br/>
-                tempore necessitatibus cum possimus 
+            <span >If You Want To Know </span>
+            <span>About Me.. </span>
+            <spane>
+                Here I Am Provide My Resume You Can Easily Download And Read 
             </spane>
             <button className="button s-button"> Download CV </button>            
             <div className="blur s-blur1" style={{background:"#ABF1FF94"}} ></div>
